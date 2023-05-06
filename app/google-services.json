@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "478554600909",
+    "project_id": "hopepayment-dac0f",
+    "storage_bucket": "hopepayment-dac0f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:478554600909:android:9530cb05b852a7c6fc4084",
+        "android_client_info": {
+          "package_name": "com.example.hopepayment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "478554600909-1tdriemvncg5khubpib8fjcgd2emu4mi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdVVpsKjizJDV81ZeOhZ-86h9Sh7cg-9M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "478554600909-1tdriemvncg5khubpib8fjcgd2emu4mi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
