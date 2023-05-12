@@ -1,5 +1,6 @@
 package com.example.mad.activities
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
 import android.provider.ContactsContract.CommonDataKinds.Email
@@ -25,9 +26,11 @@ class charityDetails : AppCompatActivity() {
     private lateinit var btnCharEdit: Button
     private lateinit var btnCharDelete: Button
 
+    @SuppressLint("RestrictedApi")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_charity_details)
+
 
         initView()
         setValuesToViews()

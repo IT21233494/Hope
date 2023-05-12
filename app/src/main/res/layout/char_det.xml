@@ -30,6 +30,7 @@
                 card_view:ignore="UselessParent">
 
                 <ImageView
+                    android:id="@+id/proPic"
                     android:layout_width="122dp"
                     android:layout_height="100dp"
                     android:cropToPadding="true"

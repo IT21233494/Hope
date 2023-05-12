@@ -166,6 +166,18 @@
 
                 tools:ignore="LabelFor,TextFields" />
 
+            <Button
+                android:id="@+id/selectImageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Select Profile picture " />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="106dp"
+                android:layout_height="48dp"
+                android:src="@drawable/default_logo" />
+
 
 
 

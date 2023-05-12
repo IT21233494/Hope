@@ -60,6 +60,7 @@ class fetchingActivity : AppCompatActivity() {
                             intent.putExtra("charEmail",charList[position].charEmail)
                             intent.putExtra("charPhone",charList[position].charPhone)
                             intent.putExtra("charMotive",charList[position].charMot)
+
                             startActivity(intent)
 
                         }

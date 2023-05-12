@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.Button
+import android.widget.ImageButton
 import com.example.mad.R
 
 class MainActivity : AppCompatActivity() {
@@ -15,6 +16,8 @@ class MainActivity : AppCompatActivity() {
     private lateinit var btnCharFetch: Button
 
 
+
+    @Suppress("DEPRECATION")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.profile)
@@ -22,6 +25,8 @@ class MainActivity : AppCompatActivity() {
         //menu =findViewById(R.id.menu_char)
         btnchar=findViewById(R.id.addChar)
         btnCharFetch=findViewById(R.id.fetchChar)
+
+
 
 
 
@@ -35,6 +40,10 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, fetchingActivity::class.java)
             startActivity(intent)
         }
+
+
+
+
 
 
 

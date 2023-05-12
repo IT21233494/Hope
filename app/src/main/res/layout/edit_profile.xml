@@ -12,7 +12,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
 
 
         <ScrollView
@@ -24,23 +25,36 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
-                <include layout="@layout/address" />
+                <include
+                    layout="@layout/address"
+                    android:layout_width="383dp"
+                    android:layout_height="102dp" />
 
 
-                <include layout="@layout/email" />
+                <include
+                    layout="@layout/email"
+                    android:layout_width="383dp"
+                    android:layout_height="104dp" />
 
-                <include layout="@layout/phone" />
+                <include
+                    layout="@layout/phone"
+                    android:layout_width="383dp"
+                    android:layout_height="105dp" />
 
-                <include layout="@layout/editmotive" />
+                <include
+                    layout="@layout/editmotive"
+                    android:layout_width="385dp"
+                    android:layout_height="103dp" />
 
                 <Button
                     android:id="@+id/EditButton"
-                    android:layout_width="269dp"
-                    android:layout_height="45dp"
+                    android:layout_width="177dp"
+                    android:layout_height="65dp"
                     android:layout_gravity="center"
                     android:background="@drawable/btn_bg"
                     android:text="Save Changes"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
 
 
             </LinearLayout>
